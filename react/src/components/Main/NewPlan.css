@@ -139,7 +139,8 @@ border-bottom: none;/*線を消す*/
 .Addimg{
     background-image: url("../../images/nonimg.jpg");
     background-size: cover;
-    height: 30vh;
+    background-position: 0 50%;
+    height: 25vh;
     width: 97%;
     display: inline-block;
 }
