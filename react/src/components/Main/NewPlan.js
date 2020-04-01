@@ -110,7 +110,7 @@ class NewPlan extends React.Component {
                     <input type="datetime-local" name="end_datetime" value={task.end_datetime} onChange={(e) => {this.handleChange(e, index)}}/>
                     
                     <div className="task-img">
-                    <label class="Addimg">
+                    <label className="Addimg">
                       <input type="file" class="add_input" name="image_src" accept="image/*" capture="camera" onChange={(e) => {this.handleChange(e, index)}}/>
                       <img src={task.image_src} />
                     </label>
