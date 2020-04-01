@@ -1,0 +1,148 @@
+body{
+    /* background-color: rgba(250, 235, 215, 0.822);
+    background-image: url(img/background.jpg); */
+    
+    /* background:rgba(250, 235, 215, 0.822) url(img/background.jpg); */
+    
+    /* background: linear-gradient( 135deg, rgba(255, 252, 247, 0.922), rgba(255, 252, 247, 0.922)),url(img/background.jpg);
+     */
+    background-color: rgb(241, 241, 241);
+    background-size:cover;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+
+}
+
+.plan-name{
+    font-family: "Sawarabi Mincho";
+    margin: 2vh 5%;
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+    filter: drop-shadow(5px 5px 1px rgb(177, 177, 177));
+    border: solid rgb(148, 0, 104) 0.1px;
+}
+.plan-name input{
+    margin: 1vh auto;
+    margin-left: 5vw;
+    display: inline-block;
+    font-size: 25px;
+}
+
+.task{
+    margin: 2vh 5%;
+    min-height: 15vh;
+    width: 90%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    filter: drop-shadow(5px 5px 1px rgb(177, 177, 177));
+    border: solid rgb(148, 0, 104) 0.1px;
+    
+}
+.content{
+    /* padding-left: 3%; */
+    font-family: 'Noto Sans SC', sans-serif;
+    font-size: 3vw;
+    padding: 2vh 0 2vh 3%;
+}
+.task-name{
+    border-left: solid rgb(255, 165, 228) 10px;
+    border-bottom: solid rgb(255, 165, 228) 2px;
+    margin-left: -1vw;
+    font-size: 4vw;
+    font-weight: 600;
+    padding-left: 2vw;
+    
+    margin-bottom: 2vh;
+}
+.task-name p{
+    margin: 0;
+    padding: 0
+}
+.task-img img{
+    width: 97%;
+    height: 25vh;
+    object-fit: cover;
+    /* margin-left: -3%; */
+    padding: 0;
+}
+
+.task-date-time-start{
+    width: 95%;
+    margin: 0 auto;
+    border-bottom: solid rgb(201, 50, 168) 2px;
+}
+.task-date-time-start p{
+    margin: 0;
+    padding-left: 2vw;
+    color: rgb(201, 50, 168);
+    font-weight: 600;
+    margin-bottom: 2vh;
+}
+
+.task-date-time-goal{
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 0vh;
+    /* border-top: solid rgb(75, 181, 223) 2px; */
+}
+.task-date-time-goal p{
+    margin: 0;
+    padding-left: 2vw;
+    color: rgb(201, 50, 168);
+    font-weight: 600;
+    margin-top: 2vh;
+}
+.btn-square {
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: #668ad8;/*ボタン色*/
+    color: #FFF;
+    border-bottom: solid 4px #627295;
+    border-radius: 3px;
+}
+.btn-square:active {
+/*ボタンを押したとき*/
+-webkit-transform: translateY(4px);
+transform: translateY(4px);/*下に動く*/
+border-bottom: none;/*線を消す*/
+}
+.task-memo{
+    margin-top: 1vw;
+}
+
+.task-url label{
+    width: 15vw;
+    display: inline-block;
+}
+.task-url input{
+    margin-left: 1vw;
+    width: 40vw;
+    display: inline-block;
+}
+.task-memo label{
+    width: 15vw;
+    display: inline-block;
+}
+.task-memo input{
+    margin-left: 1vw;
+    width: 40vw;
+    height: 10vh;
+    display: inline-block;
+}
+
+.btn-submit{
+    margin-bottom: 6vh;
+}
+
+.Addimg{
+    background-image: url("../../images/nonimg.jpg");
+    background-size: cover;
+    height: 30vh;
+    width: 97%;
+    display: inline-block;
+}
+.add_input{
+    display: none;
+}

@@ -1,0 +1,17 @@
+@charset "utf-8";
+.footer{
+    /* margin-top: -2vw; */
+    padding: 0;
+    width: 100%;
+    height: 6vh;
+    /* border-: solid 1vw blueviolet; */
+    filter: drop-shadow(1px 1px 3px rgb(90, 90, 90));
+    background-color: rgb(255, 255, 255);
+    /* position: relative; */
+    position: fixed;
+    top:94vh;
+}
+.footer input{
+    height: 4vh;
+    margin: 1vh 43vw;
+}

@@ -1,0 +1,89 @@
+.task{
+    margin: 2vh 2.5%;
+    height: 81vh;
+    width: 95%;
+    background-color: rgb(255, 255, 255);
+    border: solid rgb(94, 94, 94) 0.1px;
+    border-radius: 20px;
+    
+}
+.content{
+    /* padding-left: 3%; */
+    font-family: 'Noto Sans SC', sans-serif;
+    font-size: 3vw;
+    padding: 2vh 0 2vh 3%;
+}
+.task-name{
+    font-family: "Sawarabi Mincho";
+    margin-left: -1vw;
+    font-size: 6vw;
+    font-weight: 400;
+    padding-left: 3vw;
+}
+.task-name p{
+    margin: 0;
+    padding: 0
+}
+.task-place img{
+    height: 6vw;
+    width: auto;
+}
+.task-place{
+    font-family: "Sawarabi Mincho";
+    margin-left: -1vw;
+    font-size: 4vw;
+    font-weight: 400;
+    padding-left: 4vw;
+    vertical-align: middle;
+    margin-bottom: 2vh;
+}
+.task-place p {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    vertical-align: top;
+    
+}
+.task-img img{
+    width: 97%;
+    height: 40vh;
+    object-fit: cover;
+    /* margin-left: -3%; */
+    padding: 0;
+}
+
+.task-date-time-start{
+    width: 95%;
+    margin: 0 auto;
+    border-bottom: solid rgb(201, 50, 168) 2px;
+}
+.task-date-time-start p{
+    margin: 0;
+    padding-left: 2vw;
+    color: rgb(201, 50, 168);
+    font-weight: 600;
+    margin-bottom: 2vh;
+}
+
+.task-date-time-goal{
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 0vh;
+    /* border-top: solid rgb(75, 181, 223) 2px; */
+}
+.task-date-time-goal p{
+    margin: 0;
+    padding-left: 2vw;
+    color: rgb(201, 50, 168);
+    font-weight: 600;
+    margin-top: 2vh;
+}
+
+.iine {
+    height: 10vh;
+    border-radius: 10vh;
+    /* position: absolute; */
+    margin-top: -15vh;
+    margin-left: 70vw;
+    border: solid rgb(94, 94, 94) 0.5px;
+}

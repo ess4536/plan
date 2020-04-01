@@ -1,0 +1,34 @@
+{
+    "api": [
+        {
+            "id": 1,
+            "name": "CRP",
+            "axis": "mg/dL",
+            "upper": 0.14,
+            "lower": 0.0,
+            "description": "炎症反応",
+            "sheet": 1,
+            "username": 1
+        },
+        {
+            "id": 2,
+            "name": "白血球",
+            "axis": "x10^3/μ",
+            "upper": 8.6,
+            "lower": 3.3,
+            "description": "炎症反応",
+            "sheet": 1,
+            "username": 1
+        },
+        {
+            "id": 3,
+            "name": "血沈60分",
+            "axis": "mm",
+            "upper": 15.0,
+            "lower": 0.0,
+            "description": "炎症反応",
+            "sheet": 1,
+            "username": 1
+        }
+    ]
+}
