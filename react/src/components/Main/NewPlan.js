@@ -120,7 +120,7 @@ class NewPlan extends React.Component {
                       <label>参考URL</label>
                       <input type="url" name="url" value={task.url} onChange={(e) => {this.handleChange(e, index)}}/>
                     </div>
-                    {/* 変えたよ */}
+                    {/* 変えたよ！ */}
                     <div className="task-memo">
                       <label>内容</label>
                       <input type="text" name="task_memo" value={task.task_memo} onChange={(e) => {this.handleChange(e, index)}}/>
