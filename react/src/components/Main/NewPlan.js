@@ -110,7 +110,7 @@ class NewPlan extends React.Component {
                     <input type="datetime-local" name="end_datetime" value={task.end_datetime} onChange={(e) => {this.handleChange(e, index)}}/>
                     
                     <div className="task-img">
-                    <label class="Addimg">
+                    <label className="Addimg">
                       <input type="file" class="add_input" name="image_src" accept="image/*" capture="camera" onChange={(e) => {this.handleChange(e, index)}}/>
                       <img src={task.image_src} />
                     </label>
@@ -120,7 +120,7 @@ class NewPlan extends React.Component {
                       <label>参考URL</label>
                       <input type="url" name="url" value={task.url} onChange={(e) => {this.handleChange(e, index)}}/>
                     </div>
-
+                    {/* 変えたよ */}
                     <div className="task-memo">
                       <label>内容</label>
                       <input type="text" name="task_memo" value={task.task_memo} onChange={(e) => {this.handleChange(e, index)}}/>
